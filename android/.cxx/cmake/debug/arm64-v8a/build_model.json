@@ -1,0 +1,73 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/tlodge/dada/react-native-wg/example/android",
+      "sdkFolder": "/Users/tlodge/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/tlodge/dada/react-native-wg/android/build/intermediates",
+      "gradleModulePathName": ":reactnativewg",
+      "moduleRootFolder": "/Users/tlodge/dada/react-native-wg/android",
+      "makeFile": "/Users/tlodge/dada/react-native-wg/android/tools/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/tlodge/dada/react-native-wg/example/android/.cxx",
+      "cxxFolder": "/Users/tlodge/dada/react-native-wg/android/.cxx",
+      "ndkFolder": "/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_PACKAGE_NAME\u003dcom.wireguard.android.debug",
+      "-DGRADLE_USER_HOME\u003d/Users/tlodge/.gradle"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/arm64-v8a",
+  "jsonFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/obj/arm64-v8a",
+  "buildCommandFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+}

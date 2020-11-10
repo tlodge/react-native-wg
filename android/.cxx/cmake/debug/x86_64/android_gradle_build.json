@@ -1,0 +1,134 @@
+
+{
+	"buildFiles" : [ "/Users/tlodge/dada/react-native-wg/android/tools/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/tlodge/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"libwg-quick.so-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libwg-quick.so",
+			"buildCommand" : "/Users/tlodge/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64 --target libwg-quick.so",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -Wall -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DWG_PACKAGE_NAME=\\\"com.wireguard.android.debug\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/wg-quick/android.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -Wall -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DWG_PACKAGE_NAME=\\\"com.wireguard.android.debug\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/obj/x86_64/libwg-quick.so",
+			"toolchain" : "12388676286918741408"
+		},
+		"libwg.so-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "libwg.so",
+			"buildCommand" : "/Users/tlodge/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64 --target libwg.so",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/config.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/curve25519.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/encoding.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/genkey.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/ipc.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/pubkey.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/set.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/setconf.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/show.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/showconf.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/terminal.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/wg.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src/uapi/linux -I/Users/tlodge/dada/react-native-wg/android/tools/wireguard-tools/src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIE   -O3 -std=gnu11 -D_GNU_SOURCE -include /Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.h -DHAVE_VISIBILITY_HIDDEN -DRUNSTATEDIR=\\\"/data/data/com.wireguard.android.debug/cache\\\"    -c ",
+					"src" : "/Users/tlodge/dada/react-native-wg/android/tools/ndk-compat/compat.c",
+					"workingDirectory" : "/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/obj/x86_64/libwg.so",
+			"toolchain" : "12388676286918741408"
+		}
+	},
+	"toolchains" : 
+	{
+		"12388676286918741408" : 
+		{
+			"cCompilerExecutable" : "/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/tlodge/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

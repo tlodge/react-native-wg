@@ -1,0 +1,5 @@
+/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86/CMakeFiles/libwg-go.so.dir
+/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86/CMakeFiles/libwg.so.dir
+/Users/tlodge/dada/react-native-wg/android/.cxx/cmake/debug/x86/CMakeFiles/libwg-quick.so.dir

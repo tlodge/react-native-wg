@@ -1,0 +1,20 @@
+# ninja log v5
+0	9061	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+9064	9213	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/pubkey.c.o	7cfb8e3164bbaf33
+9065	9222	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/set.c.o	46b065d504c5b2a8
+9062	9247	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/genkey.c.o	a183dead7c9c8e3e
+9071	9271	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/showconf.c.o	945d7bd8a4c5a9f7
+9066	9314	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/setconf.c.o	6e3f6c468eb23c3b
+9223	9327	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/wg.c.o	21ff48b87c317988
+9247	9328	0	CMakeFiles/libwg.so.dir/ndk-compat/compat.c.o	d0ffaa530328a989
+9062	9350	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/encoding.c.o	d757b51ca0a7754b
+9214	9356	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/terminal.c.o	7db2906a66740d28
+9068	9469	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/show.c.o	14b2678aa90cae93
+9062	9489	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/config.c.o	4ba7c24ead22b062
+9063	9869	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/ipc.c.o	78b8a5ff1326f1a4
+9062	21717	0	CMakeFiles/libwg.so.dir/wireguard-tools/src/curve25519.c.o	b6e8525bfbac9ff4
+21718	21752	0	/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/obj/arm64-v8a/libwg.so	8cc28233c0572be5
+1	50	0	CMakeFiles/libwg-quick.so.dir/ndk-compat/compat.c.o	b0b75a644037ccbf
+0	336	0	CMakeFiles/libwg-quick.so.dir/wireguard-tools/src/wg-quick/android.c.o	3eb672aa6dd00aad
+336	363	0	/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/obj/arm64-v8a/libwg-quick.so	944247d57ea24715
+2	26	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd

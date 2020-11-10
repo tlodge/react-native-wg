@@ -1,0 +1,6 @@
+rootProject.name = 'WgExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':reactnativewg'
+project(':reactnativewg').projectDir = new File(rootProject.projectDir, '../../android')
