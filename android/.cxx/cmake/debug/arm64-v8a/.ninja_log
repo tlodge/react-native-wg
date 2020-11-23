@@ -18,3 +18,12 @@
 0	336	0	CMakeFiles/libwg-quick.so.dir/wireguard-tools/src/wg-quick/android.c.o	3eb672aa6dd00aad
 336	363	0	/Users/tlodge/dada/react-native-wg/android/build/intermediates/cmake/debug/obj/arm64-v8a/libwg-quick.so	944247d57ea24715
 2	26	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+3	24	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+3	38	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+5	51	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+2	21	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+2	34	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+1	23	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+5	50	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+1	26	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd
+1	22	0	CMakeFiles/libwg-go.so	c022ea7ee2b9b4dd

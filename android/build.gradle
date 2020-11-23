@@ -17,11 +17,16 @@ buildscript {
     jsr305Version = '3.0.2'
     kotlinVersion = '1.4.10'
     groupName = 'com.wireguard.android'
+    lifecycleRuntimeKtxVersion = '2.3.0-alpha07'
+    annotationsVersion = '1.1.0'
+    appcompatVersion = '1.2.0'
+    coroutinesVersion = '1.3.9'
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:4.1.0'
     // noinspection DifferentKotlinGradleVersion
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    //implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleRuntimeKtxVersion"
     //implementation "androidx.annotation:annotation:$annotationsVersion"
     //implementation "androidx.collection:collection:$collectionVersion"
     //implementation "com.google.code.findbugs:jsr305:$jsr305Version"
@@ -95,8 +100,8 @@ repositories {
     defaultDir = rootProject.ext.get('reactNativeAndroidRoot')
   } else {
     defaultDir = new File(
-            projectDir,
-            '/../../../node_modules/react-native/android'
+      projectDir,
+      '/../../../node_modules/react-native/android'
     )
   }
 
@@ -116,13 +121,13 @@ repositories {
       parentDir = parentDir.parentFile
 
       def androidSourcesDir = new File(
-              parentDir,
-              'node_modules/react-native'
+        parentDir,
+        'node_modules/react-native'
       )
 
       def androidPrebuiltBinaryDir = new File(
-              parentDir,
-              'node_modules/react-native/android'
+        parentDir,
+        'node_modules/react-native/android'
       )
 
       if (androidPrebuiltBinaryDir.exists()) {
@@ -147,8 +152,8 @@ repositories {
 
   if (!found) {
     throw new GradleException(
-            "${project.name}: unable to locate React Native android sources. " +
-                    "Ensure you have you installed React Native as a dependency in your project and try again."
+      "${project.name}: unable to locate React Native android sources. " +
+        "Ensure you have you installed React Native as a dependency in your project and try again."
     )
   }
 }
@@ -159,4 +164,22 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleRuntimeKtxVersion"
+  implementation "androidx.annotation:annotation:$annotationsVersion"
+  implementation "androidx.appcompat:appcompat:$appcompatVersion"
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
+}
+
+//these needed to stop heap space compile issue...?
+
+tasks.withType(JavaCompile) {
+  options.compilerArgs << '-Xlint:unchecked'
+  options.deprecation = true
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+  kotlinOptions {
+    jvmTarget = JavaVersion.VERSION_1_8
+  }
 }
