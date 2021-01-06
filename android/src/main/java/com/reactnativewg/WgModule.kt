@@ -18,7 +18,7 @@ import java.nio.charset.StandardCharsets
 import androidx.lifecycle.lifecycleScope
 import android.app.Activity;
 import android.content.Intent;
-
+import kotlinx.coroutines.*
 class WgModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext), ActivityEventListener  {
 
   init {
@@ -98,7 +98,10 @@ class WgModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModu
 
     try{
       Log.d("ReactNative", "done!, SO NOW CREATING BACKEND STATE");
-      backend?.setState(tunnel, Tunnel.State.TOGGLE, Config.parse(ByteArrayInputStream(configText.toByteArray(StandardCharsets.UTF_8))));
+      GlobalScope.launch {
+        backend?.setState(tunnel, Tunnel.State.TOGGLE, Config.parse(ByteArrayInputStream(configText.toByteArray(StandardCharsets.UTF_8))));
+      }
+
       Log.d("ReactNative", "*** DONE!");
     }catch (e: Exception) {
       Log.d("ReactNative", e.toString());

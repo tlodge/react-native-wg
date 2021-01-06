@@ -1,6 +1,6 @@
 {
   "name": "react-native-wg",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "react native wg bindings",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
